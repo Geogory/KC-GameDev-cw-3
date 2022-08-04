@@ -30,5 +30,10 @@ public class Day3 : MonoBehaviour
     {
 
     }
-    void setspeed()
+    void setspeed(int newspeed)
+    {
+        print(playerspeed);
+        playerspeed = newspeed;
+        print(playerspeed);
+    }
 }
